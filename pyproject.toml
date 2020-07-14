@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spoqa_aws_xray_flask_middleware"
-version = "0.1.0"
+version = "0.1.1"
 description = "Spoqa flavoured AWS X-Ray middleware for Flask"
 authors = ["Spoqa Creators <dev@spoqa.com>"]
 maintainers = ["rusty <rusty@spoqa.com>"]
