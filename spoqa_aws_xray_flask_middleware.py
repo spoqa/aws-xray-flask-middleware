@@ -7,6 +7,8 @@ from aws_xray_sdk.core.models import http
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware as OrigMiddleware
 from flask import request
 
+__all__ = 'XRayMiddleware',
+
 
 class XRayMiddleware(OrigMiddleware):
     def _before_request(self):
