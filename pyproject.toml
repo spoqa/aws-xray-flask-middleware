@@ -2,8 +2,11 @@
 name = "spoqa_aws_xray_flask_middleware"
 version = "0.1.0"
 description = "Spoqa flavoured AWS X-Ray middleware for Flask"
-authors = ["rusty <rusty@spoqa.com>"]
+authors = ["Spoqa Creators <dev@spoqa.com>"]
+maintainers = ["rusty <rusty@spoqa.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/spoqa/aws-xray-flask-middleware"
 
 [tool.poetry.dependencies]
 python = "^2.7 | ^3.5"
