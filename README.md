@@ -1,7 +1,7 @@
 # spoqa-aws-xray-flask-middleware
 
-![[License](LICENSE)](https://badgen.net/badge/license/MIT/cyan)
-![[PyPI](https://pypi.org/project/spoqa-aws-xray-flask-middleware/)](https://badgen.net/pypi/v/spoqa-aws-xray-flask-middleware)
+[![License](https://badgen.net/badge/license/MIT/cyan)](LICENSE)
+[![PyPI](https://badgen.net/pypi/v/spoqa-aws-xray-flask-middleware)](https://pypi.org/project/spoqa-aws-xray-flask-middleware/)
 
 Spoqa flavoured AWS X-Ray middleware for Flask
 
