@@ -1,6 +1,6 @@
 # spoqa-aws-xray-flask-middleware
 
-![License](https://badgen.net/badge/license/MIT/cyan)
+![[License](LICENSE)](https://badgen.net/badge/license/MIT/cyan)
 ![[PyPI](https://pypi.org/project/spoqa-aws-xray-flask-middleware/)](https://badgen.net/pypi/v/spoqa-aws-xray-flask-middleware)
 
 Spoqa flavoured AWS X-Ray middleware for Flask
@@ -33,3 +33,7 @@ app = Flask(__name__)
 xray_recorder.configure(service='fallback_name', dynamic_naming='*mysite.com*')
 XRayMiddleware(app, xray_recorder)
 ```
+
+## License
+
+_spoqa-aws-xray-flask-middleware_ is licensed under the terms of [MIT License](LICENSE).
