@@ -27,5 +27,5 @@ class XRayMiddleware(OrigMiddleware):
             path = req.path
         url = urlparse.urljoin('//{}/'.format(segment.name), path)
 
-        segment.put_http_meta(http.URL, str(url))
-        segment.put_annotation(http.URL, str(req.base_url))
+        segment.put_http_meta(http.URL, url)
+        segment.put_annotation(http.URL, req.base_url)
