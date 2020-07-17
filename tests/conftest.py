@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 from aws_xray_sdk import global_sdk_config
 from aws_xray_sdk.core.context import Context
 from flask import Flask
