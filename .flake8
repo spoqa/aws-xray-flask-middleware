@@ -1,3 +1,4 @@
 [flake8]
 exclude = .env, .tox, docs
 import-order-style = spoqa
+application-import-names = spoqa_aws_xray_flask_middleware, tests
