@@ -10,10 +10,7 @@ repository = "https://github.com/spoqa/aws-xray-flask-middleware"
 
 [tool.poetry.dependencies]
 python = "^2.7 | ^3.5"
-# aws-xray-sdk = "^2.6.0"
-# FIXME
-# https://github.com/aws/aws-xray-sdk-python/pull/235
-aws-xray-sdk = { git = "https://github.com/spoqa/aws-xray-sdk-python.git", branch = "unicode-annotation-values" }
+aws-xray-sdk = "^2.6.0"
 flask = ">=0.10"
 
 [tool.poetry.dev-dependencies]
