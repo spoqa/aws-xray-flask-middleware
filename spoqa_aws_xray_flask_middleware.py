@@ -22,7 +22,8 @@ class XRayMiddleware(OrigMiddleware):
             segment = self._recorder.current_segment()
 
         if req.url_rule:
-            path = req.url_rule.rule
+            script_name = req.environ.get('SCRIPT_NAME', '')
+            path = script_name + req.url_rule.rule
         else:
             path = req.path
         url = urlparse.urljoin('//{}/'.format(segment.name), path)
